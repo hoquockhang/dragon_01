@@ -1,6 +1,6 @@
 workflows:
   detect_unity_versions:
-    name: Detect Unity Versions
+    name: Detect Unity Versions Installed on Codemagic
     instance_type: mac_mini_m1
 
     environment:
@@ -9,9 +9,11 @@ workflows:
     scripts:
       - name: List installed Unity versions
         script: |
-          echo "== UNITY INSTALLED VERSIONS on Codemagic =="
+          echo "==============================="
+          echo " UNITY VERSIONS ON THIS MACHINE"
+          echo "==============================="
           ls /Applications/Unity/Hub/Editor/
       - name: STOP
         script: |
-          echo "👉 Copy the list and send to me."
+          echo "⛔ COPY THE UNITY VERSIONS ABOVE AND SEND TO ME"
           exit 1
