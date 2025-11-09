@@ -1,6 +1,6 @@
 workflows:
   unity-ios-build:
-    name: Unity iOS Build
+    name: Unity iOS Build (Auto IPA)
     instance_type: mac_mini_m1
 
     environment:
