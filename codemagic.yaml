@@ -1,0 +1,25 @@
+workflows:
+  unity-ios-build:
+    name: Unity iOS Build
+    environment:
+      vars:
+        UNITY_SERIAL: $UNITY_SERIAL
+        UNITY_USERNAME: $UNITY_USERNAME
+        UNITY_PASSWORD: $UNITY_PASSWORD
+      xcode: latest
+    scripts:
+      - name: Activate Unity License
+        script: |
+          unity-editor -quit -batchmode -nographics -serial "$UNITY_SERIAL" -username "$UNITY_USERNAME" -password "$UNITY_PASSWORD"
+
+      - name: Build iOS project from Unity
+        script: |
+          unity-editor -batchmode -quit -projectPath . -executeMethod BuildScript.BuildIOS
+
+      - name: Build IPA from Xcode project
+        script: |
+          cd build/ios
+          xcodebuild -scheme Unity-iPhone archive -archivePath build/app.xcarchive
+          xcodebuild -exportArchive -archivePath build/app.xcarchive -exportPath build/ipa -exportOptionsPlist exportOptions.plist
+    artifacts:
+      - build/ipa/*.ipa

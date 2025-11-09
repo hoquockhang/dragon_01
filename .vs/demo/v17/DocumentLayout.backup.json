@@ -1,0 +1,406 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\NRO\\demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\serverlistscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\serverlistscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|d:\\project\\nro\\demo\\assets\\scripts\\panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\gamecanvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamecanvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\effectfeet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\effectfeet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\modfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\modfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\mfont.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mfont.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\soundmn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundmn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\mod\\showboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mod\\showboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\ninjautil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ninjautil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\mgraphics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mgraphics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\gamescr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\gamemidlet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemidlet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\createcharscr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\createcharscr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\assets.src.f\\controller2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\assets.src.f\\controller2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\char.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\char.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\backgroudeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backgroudeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\msystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\msystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\huyhieu\\imagehuyhieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\huyhieu\\imagehuyhieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\t1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\t1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFF9A321-5537-82C4-E756-071B546427CF}|Assembly-CSharp.csproj|D:\\Project\\NRO\\demo\\assets\\scripts\\t1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFF9A321-5537-82C4-E756-071B546427CF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\t1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 19,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "mSystem.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\mSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\mSystem.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\mSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\mSystem.cs",
+              "ViewState": "AgIAACQBAAAAAAAAAAAAABsBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T04:34:47.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NinjaUtil.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\NinjaUtil.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NinjaUtil.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\NinjaUtil.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NinjaUtil.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAgwHAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T04:10:43.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameCanvas.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\GameCanvas.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameCanvas.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\GameCanvas.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameCanvas.cs",
+              "ViewState": "AgIAAAgDAAAAAAAAAAAgwC8DAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T01:59:30.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GameScr.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\GameScr.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScr.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\GameScr.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\GameScr.cs*",
+              "ViewState": "AgIAAPYWAAAAAAAAAAAwwA8XAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T01:20:38.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "mFont.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\mFont.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\mFont.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\mFont.cs",
+              "RelativeToolTip": "Assets\\Scripts\\mFont.cs",
+              "ViewState": "AgIAAC8BAAAAAAAAAAAgwE8BAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T01:18:07.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\Controller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Controller.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\Controller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Controller.cs",
+              "ViewState": "AgIAALUQAAAAAAAAAAAAAMoQAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T01:08:19.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateCharScr.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\CreateCharScr.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CreateCharScr.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\CreateCharScr.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CreateCharScr.cs",
+              "ViewState": "AgIAACgBAAAAAAAAAAAAAD0BAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T00:13:25.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "mGraphics.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\mGraphics.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\mGraphics.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\mGraphics.cs",
+              "RelativeToolTip": "Assets\\Scripts\\mGraphics.cs",
+              "ViewState": "AgIAABYDAAAAAAAAAAAgwCoDAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T07:49:06.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ImageHuyHieu.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\HuyHieu\\ImageHuyHieu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HuyHieu\\ImageHuyHieu.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\HuyHieu\\ImageHuyHieu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HuyHieu\\ImageHuyHieu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T07:45:23.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BackgroudEffect.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\BackgroudEffect.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BackgroudEffect.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\BackgroudEffect.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BackgroudEffect.cs",
+              "ViewState": "AgIAAMMBAAAAAAAAAAAgwOcBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T06:59:28.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GameMidlet.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\GameMidlet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameMidlet.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\GameMidlet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameMidlet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T05:16:06.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Controller2.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\Assets.src.f\\Controller2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Assets.src.f\\Controller2.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\Assets.src.f\\Controller2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Assets.src.f\\Controller2.cs",
+              "ViewState": "AgIAANIDAAAAAAAAAAAwwOQDAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T05:15:21.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Item.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\Item.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\Item.cs*",
+              "ViewState": "AgIAALgAAAAAAAAAAAAAwMsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T05:13:42.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\Main.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Main.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\Main.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Main.cs",
+              "ViewState": "AgIAAEYBAAAAAAAAAAAgwG4BAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T11:22:00.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EffectFeet.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\EffectFeet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EffectFeet.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\EffectFeet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EffectFeet.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:24:06.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Char.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\Char.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Char.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\Char.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Char.cs",
+              "ViewState": "AgIAAIMFAAAAAAAAAAAYwJkFAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:23:15.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ShowBoss.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\Mod\\ShowBoss.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mod\\ShowBoss.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\Mod\\ShowBoss.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mod\\ShowBoss.cs",
+              "ViewState": "AgIAAPYAAAAAAAAAAADwvxYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T06:56:35.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "T1.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\T1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\T1.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\T1.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\T1.cs*",
+              "ViewState": "AgIAALIBAAAAAAAAAAAgwNIBAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T06:08:36.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SoundMn.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\SoundMn.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundMn.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\SoundMn.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SoundMn.cs",
+              "ViewState": "AgIAAB8BAAAAAAAAAAAAADEBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T06:08:32.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServerListScreen.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\ServerListScreen.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ServerListScreen.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\ServerListScreen.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ServerListScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T14:45:32.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Info.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\Info.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Info.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\Info.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Info.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAmwOkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T14:25:02.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModFunc.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\ModFunc.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ModFunc.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\ModFunc.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ModFunc.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:21:18.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Panel.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\Panel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Panel.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\Panel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Panel.cs",
+              "ViewState": "AgIAAOwdAAAAAAAAAAAwwAEeAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T12:57:24.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "T1.cs",
+              "DocumentMoniker": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\T1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\T1.cs",
+              "ToolTip": "D:\\Project\\NRO\\demo\\Assets\\Scripts\\T1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\T1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T12:54:05.854Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
