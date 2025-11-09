@@ -1,6 +1,6 @@
 workflows:
-  unity-ios-build:
-    name: Detect Unity versions and Build
+  detect_unity_versions:
+    name: Detect Unity Versions
     instance_type: mac_mini_m1
 
     environment:
@@ -9,10 +9,9 @@ workflows:
     scripts:
       - name: List installed Unity versions
         script: |
-          echo "== UNITY INSTALLED VERSIONS =="
+          echo "== UNITY INSTALLED VERSIONS on Codemagic =="
           ls /Applications/Unity/Hub/Editor/
-
-      - name: STOP here
+      - name: STOP
         script: |
-          echo "Copy the Unity version above and send to me. Then we continue."
+          echo "👉 Copy the list and send to me."
           exit 1
