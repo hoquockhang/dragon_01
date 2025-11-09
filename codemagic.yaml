@@ -1,19 +1,14 @@
 workflows:
-  detect_unity_locations:
-    name: Detect Unity locations
-    instance_type: mac_mini_m1
+  ios-release-no-shorebird:
+    name: iOS Release
+    environment:
+      flutter: stable
+      xcode: latest
 
     scripts:
-      - name: Check known Unity installation paths
-        script: |
-          echo "=== TRY 1: Unity Hub path ==="
-          ls -1 /Applications/Unity/Hub/Editor/ || echo "(not found)"
+      - flutter build ios --simulator
+      - mkdir -p build/ios/ipa
+      - zip -r build/ios/ipa/Runner.app.zip build/ios/iphonesimulator/Runner.app
 
-          echo "\n=== TRY 2: /Applications/Unity ==="
-          ls -1 /Applications/Unity || echo "(not found)"
-
-          echo "\n=== TRY 3: /Applications ==="
-          ls /Applications | grep -i Unity || echo "(not found)"
-
-      - name: STOP
-        script: exit 1
+    artifacts:
+      - build/ios/ipa/Runner.app.zip
