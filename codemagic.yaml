@@ -1,19 +1,32 @@
 workflows:
-  detect_unity_versions:
-    name: Detect Unity Versions Installed on Codemagic
+  unity-ios-build:
+    name: Unity iOS Build
     instance_type: mac_mini_m1
 
     environment:
       xcode: latest
+      vars:
+        UNITY_VERSION: "2022.3.62f1"
+        BUILD_PATH: "build/ios"
 
     scripts:
-      - name: List installed Unity versions
+      - name: Build Unity iOS Project
         script: |
-          echo "==============================="
-          echo " UNITY VERSIONS ON THIS MACHINE"
-          echo "==============================="
-          ls /Applications/Unity/Hub/Editor/
-      - name: STOP
+          /Applications/Unity/Hub/Editor/$UNITY_VERSION/Unity.app/Contents/MacOS/Unity \
+            -batchmode \
+            -quit \
+            -projectPath . \
+            -executeMethod BuildScript.BuildIOS \
+            -logFile /dev/stdout
+
+      - name: Build IPA using Xcode
         script: |
-          echo "⛔ COPY THE UNITY VERSIONS ABOVE AND SEND TO ME"
-          exit 1
+          cd $BUILD_PATH
+          xcodebuild -scheme Unity-iPhone archive \
+            -archivePath build/app.xcarchive
+          xcodebuild -exportArchive \
+            -archivePath build/app.xcarchive \
+            -exportPath build/ipa
+
+    artifacts:
+      - build/ios/build/ipa/*.ipa
