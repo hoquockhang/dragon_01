@@ -4,23 +4,18 @@ workflows:
     instance_type: mac_mini_m1
 
     environment:
-      vars:
-        UNITY_VERSION: "2022.3.20f1"
-        BUILD_PATH: "build/ios"
       xcode: latest
+      vars:
+        BUILD_PATH: "build/ios"
 
     scripts:
-      - name: Select Unity version
+      - name: List installed Unity versions
         script: |
-          set -e
-          echo "Switching Unity version to $UNITY_VERSION"
-          /Applications/Unity/Hub/Editor/$UNITY_VERSION/Unity.app/Contents/MacOS/Unity \
-            -batchmode \
-            -quit
+          ls /Applications/Unity/Hub/Editor/
 
       - name: Build Unity iOS Project
         script: |
-          /Applications/Unity/Hub/Editor/$UNITY_VERSION/Unity.app/Contents/MacOS/Unity \
+          /Applications/Unity/Hub/Editor/2021.3.29f1/Unity.app/Contents/MacOS/Unity \
             -batchmode \
             -quit \
             -projectPath . \
