@@ -1,12 +1,10 @@
 workflows:
-  detect_unity_versions:
-    name: Detect Installed Unity Versions
+  debug_unity:
+    name: Debug Unity Path
     instance_type: mac_mini_m1
 
     scripts:
-      - name: Show installed Unity versions
+      - name: Show Unity versions
         script: |
-          echo "===== UNITY VERSIONS INSTALLED ON CODMAGIC ====="
+          echo "=== Unity versions ==="
           ls -1 /Applications/Unity/Hub/Editor/
-      - name: STOP
-        script: exit 1
