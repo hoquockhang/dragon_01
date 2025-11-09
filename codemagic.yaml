@@ -1,25 +1,32 @@
 workflows:
   unity-ios-build:
     name: Unity iOS Build
+    instance_type: mac_mini_m1
+
     environment:
-      vars:
-        UNITY_SERIAL: $UNITY_SERIAL
-        UNITY_USERNAME: $UNITY_USERNAME
-        UNITY_PASSWORD: $UNITY_PASSWORD
+      unity: "2022.3.20f1"
       xcode: latest
+      vars:
+        BUILD_PATH: "build/ios"
+
     scripts:
-      - name: Activate Unity License
+      - name: Build Unity iOS Project
         script: |
-          unity-editor -quit -batchmode -nographics -serial "$UNITY_SERIAL" -username "$UNITY_USERNAME" -password "$UNITY_PASSWORD"
+          unity-editor \
+            -batchmode \
+            -quit \
+            -projectPath . \
+            -executeMethod BuildScript.BuildIOS \
+            -logFile /dev/stdout
 
-      - name: Build iOS project from Unity
+      - name: Build IPA using Xcode
         script: |
-          unity-editor -batchmode -quit -projectPath . -executeMethod BuildScript.BuildIOS
+          cd $BUILD_PATH
+          xcodebuild -scheme Unity-iPhone archive \
+            -archivePath build/app.xcarchive
+          xcodebuild -exportArchive \
+            -archivePath build/app.xcarchive \
+            -exportPath build/ipa
 
-      - name: Build IPA from Xcode project
-        script: |
-          cd build/ios
-          xcodebuild -scheme Unity-iPhone archive -archivePath build/app.xcarchive
-          xcodebuild -exportArchive -archivePath build/app.xcarchive -exportPath build/ipa -exportOptionsPlist exportOptions.plist
     artifacts:
-      - build/ipa/*.ipa
+      - build/ios/build/ipa/*.ipa
