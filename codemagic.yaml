@@ -4,22 +4,23 @@ workflows:
     instance_type: mac_mini_m1
 
     environment:
-      xcode: latest
       vars:
         UNITY_VERSION: "2022.3.20f1"
-        UNITY_CHANGESET: "fb25bd87ecd7"   # chính xác change set của 2022.3.20f1
         BUILD_PATH: "build/ios"
+      xcode: latest
 
     scripts:
-      - name: Install Unity via Unity Hub
+      - name: Select Unity version
         script: |
-          curl -O https://public-cdn.cloud.unity3d.com/hub/prod/UnityHub.AppImage
-          chmod +x UnityHub.AppImage
-          ./UnityHub.AppImage --headless install --version $UNITY_VERSION --changeset $UNITY_CHANGESET
+          set -e
+          echo "Switching Unity version to $UNITY_VERSION"
+          /Applications/Unity/Hub/Editor/$UNITY_VERSION/Unity.app/Contents/MacOS/Unity \
+            -batchmode \
+            -quit
 
       - name: Build Unity iOS Project
         script: |
-          unity-editor \
+          /Applications/Unity/Hub/Editor/$UNITY_VERSION/Unity.app/Contents/MacOS/Unity \
             -batchmode \
             -quit \
             -projectPath . \
