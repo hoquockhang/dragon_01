@@ -1,10 +1,19 @@
 workflows:
-  debug_unity:
-    name: Debug Unity Path
+  detect_unity_locations:
+    name: Detect Unity locations
     instance_type: mac_mini_m1
 
     scripts:
-      - name: Show Unity versions
+      - name: Check known Unity installation paths
         script: |
-          echo "=== Unity versions ==="
-          ls -1 /Applications/Unity/Hub/Editor/
+          echo "=== TRY 1: Unity Hub path ==="
+          ls -1 /Applications/Unity/Hub/Editor/ || echo "(not found)"
+
+          echo "\n=== TRY 2: /Applications/Unity ==="
+          ls -1 /Applications/Unity || echo "(not found)"
+
+          echo "\n=== TRY 3: /Applications ==="
+          ls /Applications | grep -i Unity || echo "(not found)"
+
+      - name: STOP
+        script: exit 1
