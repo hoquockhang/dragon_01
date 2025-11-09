@@ -1,35 +1,18 @@
 workflows:
   unity-ios-build:
-    name: Unity iOS Build
+    name: Detect Unity versions and Build
     instance_type: mac_mini_m1
 
     environment:
       xcode: latest
-      vars:
-        BUILD_PATH: "build/ios"
 
     scripts:
       - name: List installed Unity versions
         script: |
+          echo "== UNITY INSTALLED VERSIONS =="
           ls /Applications/Unity/Hub/Editor/
 
-      - name: Build Unity iOS Project
+      - name: STOP here
         script: |
-          /Applications/Unity/Hub/Editor/2021.3.29f1/Unity.app/Contents/MacOS/Unity \
-            -batchmode \
-            -quit \
-            -projectPath . \
-            -executeMethod BuildScript.BuildIOS \
-            -logFile /dev/stdout
-
-      - name: Build IPA using Xcode
-        script: |
-          cd $BUILD_PATH
-          xcodebuild -scheme Unity-iPhone archive \
-            -archivePath build/app.xcarchive
-          xcodebuild -exportArchive \
-            -archivePath build/app.xcarchive \
-            -exportPath build/ipa
-
-    artifacts:
-      - build/ios/build/ipa/*.ipa
+          echo "Copy the Unity version above and send to me. Then we continue."
+          exit 1
